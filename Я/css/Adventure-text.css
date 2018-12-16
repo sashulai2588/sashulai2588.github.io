@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700');
+
+body {
+    width: 1860px;
+    margin: 0 auto;
+}
+*   {
+    margin: 0;
+    padding: 0;
+}
+main,header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_header {
+    margin-top: 40px;
+}
+.logo {
+   text-decoration: none;
+    color: black;
+}
+.name {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 30px;
+    position: relative;
+}
+.surname p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.surname {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+
+form {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -80px;
+    position: absolute;
+}
+.activ_facebook:hover,
+.activ_inst:hover,
+.activ_vk:hover,
+.search_txt:hover {
+    outline: 1px solid black;
+}
+input[type="search"] {
+      width: 25px;
+      height: 25px;
+      outline: none;
+      background-image: url('../img/search.png');
+      background-color: transparent;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 20px;
+      border: none;
+}
+
+input[type="search"]:focus {
+  width: 200px;
+  transition: width 1s ease-out;
+  background-position: right;
+}
+.search_txt {
+    font-size: 19px;
+    color: darkgray;
+}
+
+
+.main_header_menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+nav ul {
+    display: flex;
+    margin-left: 250px;
+    padding-top: 42px; 
+    padding-bottom: 42px;
+}
+
+nav li a {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav li a:hover {
+    background-color: #c7b299;
+}
+
+
+/* MAIN */
+main {
+    font-family: 'Cardo', 'Arial', serif;
+}
+main h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+
+main ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 510px;
+    width: 270px;
+    
+}
+main li {
+    width: 130px;
+    font-size: 17px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+    text-transform:uppercase;
+}
+main img {
+    padding: 10px;
+}
+main p  {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 1050px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 60px;
+}
+main p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+figure {
+    text-align: center;
+}
+
+
+
+
+
+
+

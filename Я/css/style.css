@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700');
+
+body {
+    width: 1860px;
+    margin: 0 auto;
+}
+*   {
+    margin: 0;
+    padding: 0;
+}
+main,header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_header {
+    margin-top: 40px;
+}
+.logo {
+   text-decoration: none;
+    color: black;
+}
+.name {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 30px;
+    position: relative;
+}
+.surname p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.surname {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+
+form {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -80px;
+    position: absolute;
+}
+.activ_facebook:hover,
+.activ_inst:hover,
+.activ_vk:hover,
+.search_txt:hover {
+    outline: 1px solid black;
+}
+input[type="search"] {
+      width: 25px;
+      height: 25px;
+      outline: none;
+      background-image: url('../img/search.png');
+      background-color: transparent;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 20px;
+      border: none;
+}
+
+input[type="search"]:focus {
+  width: 200px;
+  transition: width 1s ease-out;
+  background-position: right;
+}
+.search_txt {
+    font-size: 19px;
+    color: darkgray;
+}
+
+
+.main_header_menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+nav ul {
+    display: flex;
+    margin-left: 250px;
+    padding-top: 42px; 
+    padding-bottom: 42px;
+}
+
+nav li a {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav li a:hover {
+    background-color: #c7b299;
+}
+
+
+
+
+/* ПРИВЕТСТВИЕ */
+
+.hello_img {
+    display: flex;
+    width: 750px;
+    height: 900px;
+    background: url(../img/main.JPG) no-repeat;
+    background-size: 750px 900px;
+    position: relative;
+    margin-left: 60px;
+}
+.hello_txt1 a {
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    padding: 40px;
+    background: rgba(78, 110, 145, 0.5);
+    display: flex;
+    margin-left: 630px;
+    margin-top: -650px;
+    position: absolute;  
+}
+.hello_txt1 a:hover{
+    background: rgba(78, 110, 145, 0.8);
+    color: white;
+    filter: brightness(80%);
+}
+.hello_txt1 p {
+    font-family: 'Cardo', 'Arial', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.hello_txt2{
+    display: flex;
+    width: 300px;
+    text-align: justify;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -300px;
+    
+}  
+.hello_txt2 p {
+    font-family: 'Cardo', 'Arial', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+}        
+.fieldset {
+    margin-top: 60px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-color: ghostwhite;
+} 
+legend {
+    font-family: 'Cardo', 'Arial', serif;
+    margin-left: 500px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 50px
+
+}
+
+
+
+
+/* ПРЕДЫДУЩИЕ ПОСТЫ */
+/* Пост-1 */
+.Post {
+    display: flex;
+    justify-content: space-between;
+}
+.Post_img {
+    width: 600px;
+    height: 700px;
+    background:  url('../img/Post-1.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+.Post_description {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 500px;
+    text-align: center;
+    margin-top: 200px;
+}
+.Post_description span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+    background-color: #c7b299;
+    padding: 3px 9px;
+}
+.Post_description h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+    padding-bottom: 10px;
+} 
+.Post_description ul {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 190px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.Post_description p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 30px;
+}
+.Post_description a {
+  padding: 6px 35px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+  text-decoration: none;
+  color: black;
+}
+.Post_description a:hover {
+    background: #ffffff url('../img/arrow.png') no-repeat 120px 11px;
+}
+.Post_description a:active {
+    box-shadow: none;
+} 
+
+
+
+.Post-transform {
+    flex-direction: row-reverse
+}
+/* Пост-2 */
+.Post-2 {
+    background:  url('../img/Post-2.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+/* Пост-3 */
+.Post-3 {
+    background:  url('../img/Post-3.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+/* Пост-3 */
+.Post-4 {
+    background:  url('../img/Post-4.JPG') no-repeat;
+    background-size: 600px 700px;
+}  
+
+/* Instagram */
+.Instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.Instagram h1 {
+    display: flex;
+    width: 250px;
+    margin: 30px 20px;
+    padding-top: 130px;
+    height: 30px;
+}
+.Instagram h1 a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    text-transform: uppercase;
+    
+}
+.Instagram h1 a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+
+.Instagram_picture {
+    display: flex;
+}
+.Instagram_picture a {
+    padding: 5px;
+}
+
+
+
+/* FOOTER*/
+.footer {
+    background-color: #fafafa;
+}
+.footer_wrapper {
+     display: flex;
+     justify-content: space-between;
+     width: 1400px;
+     margin: 0 auto;
+    
+}
+
+.footer a {
+    font-family: 'Cardo', 'Arial', serif;
+    color:  #545454;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer ul {
+    display: flex;
+}
+.footer li {
+    list-style-type: none;
+    padding: 30px 10px;
+}
+.footer_menu1 span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer_menu2 a:hover {
+    color:  #c7b299;
+}
+
+
+
+/* ADVETURE */ /* ADVETURE */ /* ADVETURE */ /* ADVETURE */ /* ADVETURE */
+
+.main2 {
+    width: 1860px;
+}
+nav span {
+  border-bottom: 2px solid black;  
+}
+.main2 a {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 27%;
+    float: left;
+    margin: 1% 3%;
+    text-decoration: none;
+    color: black
+}
+figure img:hover {
+    filter: brightness(60%);
+}
+
+.main2 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.main2 span {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 210px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.clearfix {
+    clear: both;
+}
