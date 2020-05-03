@@ -218,9 +218,11 @@ legend {
   text-decoration: none;
   color: black;
 }
+
 .Post_description a:hover {
-    background: #ffffff url('../img/arrow.png') no-repeat 120px 11px;
+    background: #e0cfc3 url('../img/arrow.png') no-repeat 110px 11px;
 }
+
 .Post_description a:active {
     box-shadow: none;
 } 
@@ -908,7 +910,7 @@ legend {
 .footer_wrapper {
      display: flex;
      justify-content: space-between;
-     width: 1400px;
+     width: 1200px;
      margin: 0 auto;
     
 }
@@ -1027,7 +1029,7 @@ figure img:hover {
     padding-bottom: 10px;
     text-align: center;
     margin-top: 660px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding: 6px 35px;
     box-sizing: border-box;
     border: 1px solid gray;
