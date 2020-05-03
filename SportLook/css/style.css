@@ -103,26 +103,27 @@ nav li a:hover {
     display: flex;
     width: 750px;
     height: 900px;
-    background: url(../img/main.png) no-repeat;
-    background-size: 710px 1100px;
+    background: url(../img/main.jpg) no-repeat;
+    background-size: 710px 900px;
     position: relative;
     margin-left: 60px;
 }
 .hello_txt1 a {
     text-decoration: none;
-    color:black;
+    color: #8c6549;
     width: 250px;
     padding: 40px;
-    background: rgba(78, 110, 145, 0.5);
+    background: rgba(242, 235, 230, 0.7);
     display: flex;
     margin-left: 630px;
     margin-top: -650px;
     position: absolute;  
 }
+
 .hello_txt1 a:hover{
-    background: rgba(78, 110, 145, 0.8);
-    color: white;
-    filter: brightness(80%);
+    background: rgba(110, 94, 78, 0.8);
+    color: #e0cfc3;
+    filter: brightness(90%);
 }
 .hello_txt1 p {
     font-family: 'Cardo', 'Arial', serif;
@@ -175,7 +176,7 @@ legend {
 .Post_img {
     width: 600px;
     height: 700px;
-    background:  url('../img/online.jpg') no-repeat;
+    background:  url('../img/first.JPG') no-repeat;
     background-size: 600px 700px;
 }
 .Post_description {
@@ -490,7 +491,7 @@ figure img:hover {
 
 /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ 
 .main4 {
-    width: 1860px;
+    width: 100%;
 }
 .main4 h3 {
     font-size: 25px;
@@ -985,90 +986,24 @@ figure img:hover {
      
 }
 .Skype {
-    background: url(../img/online/skype.jpg);
+    background: url(../img/online/mobileskype.png);
     background-size: 500px;
 }
 .Live {
-    background: url(../img/online/live.jpg);
+    background: url(../img/online/mobilelive.png);
     background-size: 450px;
 }
 .Exercises {
-    background: url(../img/online/exercises.jpg);
+    background: url(../img/online/mobilefree.png);
     background-size: 500px;
 }
 .Marafon {
-    background: url(../img/online/marafon.jpg);
+    background: url(../img/online/mobilemarafon.png);
     background-size: 447px;
 }
-
-
-.Skype:hover .productActive {
-  display: block;
-}
-.Live:hover .productActive {
-    display: block;
-}
-.Exercises:hover .productActive {
-   display: block; 
-}
-.Marafon:hover .productActive {
-   display: block; 
-}
-
-.productActive {
-    outline: 1px solid #9c9c9c;
-    background:  #ffffff;
-    opacity: 0.7;
-    display: none;
-    position: absolute;
-    width: 450px;
-    height: 650px;
     
-}
-.productActive img {
-    padding-top: 100px;
-    padding-left: 200px;
-}
-
-.productActive h1 {
-    color: #6c6c6c;
-    font-weight: 300;
-    text-align: center;
-    transform: scaleX(1.0041);
-    margin-top: 10px;
-    line-height: 22px;
-}
-.productActive p {
-    color: #6c6c6c;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    transform: scaleX(1.0041);
-    margin-top: 100px;
-    line-height: 32px; 
-}
-.productActive li {
-    color:#6c6c6c;
-    font-size: 25px;
-    font-weight: 300;
-    transform: scaleX(1.0041);
-    margin-top: 40px;
-    margin-left: 50px;
-    line-height: 12px;
-}
-.productActive ul {
-    margin-bottom: 60px;
-}
-.productActive i {
-    padding: 6px 35px;
-    box-sizing: border-box;
-    border: 1px solid gray;
-    border-radius: 5px;
-    box-shadow: 2px 3px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-    text-decoration: none;
-    color: black;
-    margin-left: 32%;
-}
+    
+    
 .main3 h3 {
     font-size: 25px;
     font-weight: 700;
@@ -1084,14 +1019,13 @@ figure img:hover {
     color: #8c8c8c;
     padding-bottom: 10px;
 }
-.Marafon .productActive {
-    opacity: 0.9;
-}
+
 
 
 /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ 
 .main4 {
     width: 1400px;
+    margin: 0 auto;
 }
 .main4 h3 {
     font-size: 25px;
