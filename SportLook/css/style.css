@@ -940,10 +940,10 @@ legend {
 
     
     
- /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */
+ /* НАПРАВЛЕНИЯ */ /* ПИТАНИЕ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */
 
 .main2 {
-   width: 100%;
+   width: 1200px;
 }
 nav span {
   border-bottom: 2px solid black;  
@@ -1079,7 +1079,9 @@ figure img:hover {
 
 /* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */
 
-
+.Contact {
+   width: 1200px;
+}
 .Contacts h3 {
     display: block;
     margin: 30px;
