@@ -168,7 +168,6 @@ legend {
 
 
 /* ПРЕДЫДУЩИЕ ПОСТЫ */
-/* Пост-1 */
 .Post {
     display: flex;
     justify-content: space-between;
@@ -176,8 +175,6 @@ legend {
 .Post_img {
     width: 600px;
     height: 700px;
-    background:  url('../img/first.JPG') no-repeat;
-    background-size: 600px 700px;
 }
 .Post_description {
     font-family: 'Cardo', 'Arial', serif;
@@ -232,6 +229,11 @@ legend {
 
 .Post-transform {
     flex-direction: row-reverse
+}
+/* Пост-1 */
+.Post-1 {
+    background:  url('../img/first.JPG') no-repeat;
+    background-size: 600px 700px;
 }
 /* Пост-2 */
 .Post-2 {
@@ -702,26 +704,27 @@ nav li a:hover {
     display: flex;
     width: 750px;
     height: 900px;
-    background: url(../img/main.png) no-repeat;
-    background-size: 710px 1100px;
+    background: url(../img/main.jpg) no-repeat;
+    background-size: 710px 900px;
     position: relative;
     margin-left: 60px;
 }
 .hello_txt1 a {
     text-decoration: none;
-    color:black;
+    color: #8c6549;
     width: 250px;
     padding: 40px;
-    background: rgba(78, 110, 145, 0.5);
+    background: rgba(242, 235, 230, 0.7);
     display: flex;
     margin-left: 630px;
     margin-top: -650px;
     position: absolute;  
 }
+
 .hello_txt1 a:hover{
-    background: rgba(78, 110, 145, 0.8);
-    color: white;
-    filter: brightness(80%);
+    background: rgba(110, 94, 78, 0.8);
+    color: #e0cfc3;
+    filter: brightness(90%);
 }
 .hello_txt1 p {
     font-family: 'Cardo', 'Arial', serif;
@@ -759,12 +762,13 @@ legend {
     font-weight: 400;
     padding: 20px;
     margin-bottom: 50px
+
 }
 
 
 
 /* ПРЕДЫДУЩИЕ ПОСТЫ */
-/* Пост-1 */
+
 .Post {
     display: flex;
     justify-content: space-between;
@@ -772,8 +776,6 @@ legend {
 .Post_img {
     width: 600px;
     height: 700px;
-    background:  url('../img/online.jpg') no-repeat;
-    background-size: 600px 700px;
 }
 .Post_description {
     font-family: 'Cardo', 'Arial', serif;
@@ -828,6 +830,13 @@ legend {
 
 .Post-transform {
     flex-direction: row-reverse
+}
+    
+    
+/* Пост-1 */
+.Post-1 {
+    background:  url('../img/first.JPG') no-repeat;
+    background-size: 600px 700px;
 }
 /* Пост-2 */
 .Post-2 {
@@ -928,7 +937,7 @@ legend {
  /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */
 
 .main2 {
-    width: 1400px;
+   width: 100%;
 }
 nav span {
   border-bottom: 2px solid black;  
@@ -987,7 +996,7 @@ figure img:hover {
 }
 .Skype {
     background: url(../img/online/mobileskype.png);
-    background-size: 500px;
+    background-size: 450px;
 }
 .Live {
     background: url(../img/online/mobilelive.png);
@@ -995,11 +1004,11 @@ figure img:hover {
 }
 .Exercises {
     background: url(../img/online/mobilefree.png);
-    background-size: 500px;
+    background-size: 450px;
 }
 .Marafon {
     background: url(../img/online/mobilemarafon.png);
-    background-size: 447px;
+    background-size: 450px;
 }
     
     
@@ -1024,8 +1033,7 @@ figure img:hover {
 
 /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ 
 .main4 {
-    width: 1400px;
-    margin: 0 auto;
+    width: 100%;
 }
 .main4 h3 {
     font-size: 25px;
