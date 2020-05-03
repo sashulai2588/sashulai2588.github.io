@@ -595,11 +595,9 @@ figure img:hover {
 /* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
 /* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-{
+@media only screen and (min-device-width : 900px) and (max-device-width : 1280px) {
+Ширина блока контейнера 100% + убрать прочие привязки в 900 px
+}
     
     
     body {
@@ -994,19 +992,19 @@ figure img:hover {
     
      
 }
-.Skype {
+.Skype a {
     background: url(../img/online/mobileskype.png);
     background-size: 450px;
 }
-.Live {
+.Live a {
     background: url(../img/online/mobilelive.png);
     background-size: 450px;
 }
-.Exercises {
+.Exercises a {
     background: url(../img/online/mobilefree.png);
     background-size: 450px;
 }
-.Marafon {
+.Marafon a {
     background: url(../img/online/mobilemarafon.png);
     background-size: 450px;
 }
