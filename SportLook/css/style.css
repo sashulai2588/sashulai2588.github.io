@@ -602,9 +602,10 @@ figure img:hover {
 /* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
 /* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
 
-@media only screen and (min-device-width : 900px) and (max-device-width : 1280px) {
-Ширина блока контейнера 100% + убрать прочие привязки в 900 px
-}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
     
     
     body {
@@ -1034,9 +1035,7 @@ figure img:hover {
     text-decoration: none;
     color: black;
 } 
-.main3 h3:hover{
-    color: #8c8c8c;
-}
+
 .main3 span {
     width: 130px;
     font-size: 17px;
