@@ -999,19 +999,19 @@ figure img:hover {
     
      
 }
-.Skype a {
+.Skype {
     background: url(../img/online/mobileskype.png);
     background-size: 450px;
 }
-.Live a {
+.Live {
     background: url(../img/online/mobilelive.png);
     background-size: 450px;
 }
-.Exercises a {
+.Exercises {
     background: url(../img/online/mobilefree.png);
     background-size: 450px;
 }
-.Marafon a {
+.Marafon {
     background: url(../img/online/mobilemarafon.png);
     background-size: 450px;
 }
@@ -1024,8 +1024,19 @@ figure img:hover {
     line-height: 35px;
     padding-bottom: 10px;
     text-align: center;
-    margin-top: 650px; 
+    margin-top: 660px;
+    margin-bottom: 20px;
+    padding: 6px 35px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    text-decoration: none;
+    color: black;
 } 
+.main3 h3:hover{
+    color: #8c8c8c;
+}
 .main3 span {
     width: 130px;
     font-size: 17px;
@@ -1033,11 +1044,8 @@ figure img:hover {
     color: #8c8c8c;
     padding-bottom: 10px;
 }
-.main3 a {
-    text-decoration: none;
-    color: black;
-}
-.main3 a:hover {
+
+.mobilebottom:hover {
     color: red;
 }
 
