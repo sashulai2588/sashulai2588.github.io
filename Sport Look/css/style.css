@@ -1,0 +1,1168 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700');
+
+body {
+    width: 1860px;
+    margin: 0 auto;
+}
+*   {
+    margin: 0;
+    padding: 0;
+}
+main,header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_header {
+    margin-top: 40px;
+}
+.logo {
+   text-decoration: none;
+    color: black;
+}
+.name {
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 30px;
+    position: relative;
+}
+.surname p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.surname {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+
+form {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -80px;
+    position: absolute;
+}
+
+.telegram,
+.inst,
+.tic {
+    margin-left: 20px;
+}
+
+.telegram:hover,
+.inst:hover,
+.tic:hover {
+    outline: 1px solid black;
+}
+
+
+
+.main_header_menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+nav ul {
+    display: flex;
+    margin-left: 250px;
+    padding-top: 42px; 
+    padding-bottom: 42px;
+}
+
+nav li a {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav li a:hover {
+    background-color: #c7b299;
+}
+
+
+
+
+/* ПРИВЕТСТВИЕ */
+
+.hello_img {
+    display: flex;
+    width: 750px;
+    height: 900px;
+    background: url(../img/main.png) no-repeat;
+    background-size: 710px 1100px;
+    position: relative;
+    margin-left: 60px;
+}
+.hello_txt1 a {
+    text-decoration: none;
+    color:black;
+    width: 250px;
+    padding: 40px;
+    background: rgba(78, 110, 145, 0.5);
+    display: flex;
+    margin-left: 630px;
+    margin-top: -650px;
+    position: absolute;  
+}
+.hello_txt1 a:hover{
+    background: rgba(78, 110, 145, 0.8);
+    color: white;
+    filter: brightness(80%);
+}
+.hello_txt1 p {
+    font-family: 'Cardo', 'Arial', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.hello_txt2{
+    display: flex;
+    width: 300px;
+    text-align: justify;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -300px;
+    
+}  
+.hello_txt2 p {
+    font-family: 'Cardo', 'Arial', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+}        
+.fieldset {
+    margin-top: 60px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-color: ghostwhite;
+} 
+legend {
+    font-family: 'Cardo', 'Arial', serif;
+    margin-left: 500px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 50px
+
+}
+
+
+
+
+/* ПРЕДЫДУЩИЕ ПОСТЫ */
+/* Пост-1 */
+.Post {
+    display: flex;
+    justify-content: space-between;
+}
+.Post_img {
+    width: 600px;
+    height: 700px;
+    background:  url('../img/online.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+.Post_description {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 500px;
+    text-align: center;
+    margin-top: 200px;
+}
+.Post_description span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+    background-color: #c7b299;
+    padding: 3px 9px;
+}
+.Post_description h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+    padding-bottom: 10px;
+} 
+.Post_description ul {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 190px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.Post_description p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 30px;
+}
+.Post_description a {
+  padding: 6px 35px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+  text-decoration: none;
+  color: black;
+}
+.Post_description a:hover {
+    background: #ffffff url('../img/arrow.png') no-repeat 120px 11px;
+}
+.Post_description a:active {
+    box-shadow: none;
+} 
+
+
+
+.Post-transform {
+    flex-direction: row-reverse
+}
+/* Пост-2 */
+.Post-2 {
+    background:  url('../img/skype.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+/* Пост-3 */
+.Post-3 {
+    background:  url('../img/studia.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+/* Пост-3 */
+.Post-4 {
+    background:  url('../img/pitanie.jpg') no-repeat;
+    background-size: 600px 700px;
+}  
+
+/* Instagram */
+.Instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.Instagram h1 {
+    display: flex;
+    width: 350px;
+    margin: 30px 20px;
+    padding-top: 130px;
+    height: 30px;
+}
+.Instagram h1 a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    text-transform: uppercase;
+    
+}
+.Instagram h1 a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+
+.Instagram_picture {
+    display: flex;
+}
+.Instagram_picture a {
+    padding: 5px;
+}
+
+
+
+/* FOOTER*/
+.footer {
+    background-color: #fafafa;
+}
+.footer_wrapper {
+     display: flex;
+     justify-content: space-between;
+     width: 1400px;
+     margin: 0 auto;
+    
+}
+
+.footer a {
+    font-family: 'Cardo', 'Arial', serif;
+    color:  #545454;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer ul {
+    display: flex;
+}
+.footer li {
+    list-style-type: none;
+    padding: 30px 10px;
+}
+.footer_menu1 span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer_menu2 a:hover {
+    color:  #c7b299;
+}
+
+
+
+/* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */
+
+.main2 {
+    width: 1860px;
+}
+nav span {
+  border-bottom: 2px solid black;  
+}
+.main2 a {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 27%;
+    float: left;
+    margin: 1% 3%;
+    text-decoration: none;
+    color: black
+}
+figure img:hover {
+    filter: brightness(60%);
+}
+
+
+.main2 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.main2 span {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 210px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.clearfix {
+    clear: both;
+}
+
+
+
+/*Online*/ /*Online*/ /*Online*/ /*Online*/ /*Online*/ /*Online*/
+
+.main3 {
+        display: inline-block;
+        width: 100%;
+        margin-top: 72px;
+        margin-bottom: 60px;
+        margin-left: 160px; 
+}
+.Skype,.Live,.Exercises,.Marafon {
+     width: 450px;
+     height: 650px;
+     float: left;
+     margin: 2% 2%;
+     position: relative;
+    
+     
+}
+.Skype {
+    background: url(../img/online/skype.jpg);
+    background-size: 500px;
+}
+.Live {
+    background: url(../img/online/live.jpg);
+    background-size: 450px;
+}
+.Exercises {
+    background: url(../img/online/exercises.jpg);
+    background-size: 500px;
+}
+.Marafon {
+    background: url(../img/online/marafon.jpg);
+    background-size: 447px;
+}
+
+
+.Skype:hover .productActive {
+  display: block;
+}
+.Live:hover .productActive {
+    display: block;
+}
+.Exercises:hover .productActive {
+   display: block; 
+}
+.Marafon:hover .productActive {
+   display: block; 
+}
+
+.productActive {
+    outline: 1px solid #9c9c9c;
+    background:  #ffffff;
+    opacity: 0.7;
+    display: none;
+    position: absolute;
+    width: 450px;
+    height: 650px;
+    
+}
+.productActive img {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.productActive h1 {
+    color: #6c6c6c;
+    font-weight: 300;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-top: 10px;
+    line-height: 22px;
+}
+.productActive p {
+    color: #6c6c6c;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-top: 100px;
+    line-height: 32px; 
+}
+.productActive li {
+    color:#6c6c6c;
+    font-size: 25px;
+    font-weight: 300;
+    transform: scaleX(1.0041);
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 12px;
+}
+.productActive ul {
+    margin-bottom: 60px;
+}
+.productActive i {
+    padding: 6px 35px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    text-decoration: none;
+    color: black;
+    margin-left: 32%;
+}
+.main3 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 650px; 
+} 
+.main3 span {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 190px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.Marafon .productActive {
+    opacity: 0.9;
+}
+
+
+/* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ 
+.main4 {
+    width: 1860px;
+}
+.main4 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px; 
+} 
+.main4 p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px; 
+} 
+.main4 a {
+    text-decoration: none;
+    color: red;
+}
+
+
+/* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */
+
+
+.Contacts h3 {
+    display: block;
+    margin: 30px;
+    text-align: center;
+    height: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    background: rgba(78, 110, 145, 0.5);
+}
+.Contacts li {
+    display: flex;
+    width: 350px;
+    margin: 30px 20px;
+    padding-top: 20px;
+    height: 50px;
+}
+.Contacts li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+.Contacts li a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+.Contacts p {
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    
+    
+    body {
+    width: 1400px;
+    margin: 0 auto;
+}
+*   {
+    margin: 0;
+    padding: 0;
+}
+main,header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_header {
+    margin-top: 40px;
+}
+.logo {
+   text-decoration: none;
+    color: black;
+}
+.name {
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 30px;
+    position: relative;
+}
+.surname p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.surname {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+
+form {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -80px;
+    position: absolute;
+}
+
+.telegram,
+.inst,
+.tic {
+    margin-left: 20px;
+}
+
+.telegram:hover,
+.inst:hover,
+.tic:hover {
+    outline: 1px solid black;
+}
+
+
+
+.main_header_menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+nav ul {
+    display: flex;
+    margin-left: 250px;
+    padding-top: 42px; 
+    padding-bottom: 42px;
+}
+
+nav li a {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav li a:hover {
+    background-color: #c7b299;
+}
+
+
+
+
+/* ПРИВЕТСТВИЕ */
+
+.hello_img {
+    display: flex;
+    width: 750px;
+    height: 900px;
+    background: url(../img/main.png) no-repeat;
+    background-size: 710px 1100px;
+    position: relative;
+    margin-left: 60px;
+}
+.hello_txt1 a {
+    text-decoration: none;
+    color:black;
+    width: 250px;
+    padding: 40px;
+    background: rgba(78, 110, 145, 0.5);
+    display: flex;
+    margin-left: 630px;
+    margin-top: -650px;
+    position: absolute;  
+}
+.hello_txt1 a:hover{
+    background: rgba(78, 110, 145, 0.8);
+    color: white;
+    filter: brightness(80%);
+}
+.hello_txt1 p {
+    font-family: 'Cardo', 'Arial', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.hello_txt2{
+    display: flex;
+    width: 300px;
+    text-align: justify;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -300px;
+    
+}  
+.hello_txt2 p {
+    font-family: 'Cardo', 'Arial', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+}        
+.fieldset {
+    margin-top: 60px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-color: ghostwhite;
+} 
+legend {
+    font-family: 'Cardo', 'Arial', serif;
+    margin-left: 500px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 50px
+}
+
+
+
+/* ПРЕДЫДУЩИЕ ПОСТЫ */
+/* Пост-1 */
+.Post {
+    display: flex;
+    justify-content: space-between;
+}
+.Post_img {
+    width: 600px;
+    height: 700px;
+    background:  url('../img/online.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+.Post_description {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 500px;
+    text-align: center;
+    margin-top: 200px;
+}
+.Post_description span {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+    background-color: #c7b299;
+    padding: 3px 9px;
+}
+.Post_description h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+    padding-bottom: 10px;
+} 
+.Post_description ul {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 190px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.Post_description p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 30px;
+}
+.Post_description a {
+  padding: 6px 35px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+  text-decoration: none;
+  color: black;
+}
+.Post_description a:hover {
+    background: #ffffff url('../img/arrow.png') no-repeat 120px 11px;
+}
+.Post_description a:active {
+    box-shadow: none;
+} 
+
+
+
+.Post-transform {
+    flex-direction: row-reverse
+}
+/* Пост-2 */
+.Post-2 {
+    background:  url('../img/skype.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+/* Пост-3 */
+.Post-3 {
+    background:  url('../img/studia.jpg') no-repeat;
+    background-size: 600px 700px;
+}
+/* Пост-3 */
+.Post-4 {
+    background:  url('../img/pitanie.jpg') no-repeat;
+    background-size: 600px 700px;
+}  
+
+/* Instagram */
+.Instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.Instagram h1 {
+    display: flex;
+    width: 350px;
+    margin: 30px 20px;
+    padding-top: 130px;
+    height: 30px;
+}
+.Instagram h1 a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    text-transform: uppercase;
+    
+}
+.Instagram h1 a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+
+.Instagram_picture {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+    
+.Instagram_picture a {
+    margin: 2% 5%;
+
+}
+
+
+
+/* FOOTER*/
+.footer {
+    background-color: #fafafa;
+}
+.footer_wrapper {
+     display: flex;
+     justify-content: space-between;
+     width: 1400px;
+     margin: 0 auto;
+    
+}
+
+.footer a {
+    font-family: 'Cardo', 'Arial', serif;
+    color:  #545454;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer ul {
+    display: flex;
+}
+.footer li {
+    list-style-type: none;
+    padding: 30px 10px;
+}
+.footer_menu1 span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer_menu2 a:hover {
+    color:  #c7b299;
+}
+
+    
+    
+ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */ /* НАПРАВЛЕНИЯ */
+
+.main2 {
+    width: 1400px;
+}
+nav span {
+  border-bottom: 2px solid black;  
+}
+.main2 a {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 40%;
+    float: left;
+    margin: 1% 5%;
+    text-decoration: none;
+    color: black;
+    
+}
+figure img:hover {
+    filter: brightness(60%);
+}
+
+
+.main2 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.main2 span {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 210px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.clearfix {
+    clear: both;
+}
+
+
+
+/*Online*/ /*Online*/ /*Online*/ /*Online*/ /*Online*/ /*Online*/
+
+.main3 {
+        display: inline-block;
+        width: 100%;
+        margin-top: 72px;
+        margin-bottom: 60px;
+        margin-left: 160px; 
+}
+.Skype,.Live,.Exercises,.Marafon {
+     width: 450px;
+     height: 650px;
+     float: left;
+     margin: 4% 4%;
+     position: relative;
+    
+     
+}
+.Skype {
+    background: url(../img/online/skype.jpg);
+    background-size: 500px;
+}
+.Live {
+    background: url(../img/online/live.jpg);
+    background-size: 450px;
+}
+.Exercises {
+    background: url(../img/online/exercises.jpg);
+    background-size: 500px;
+}
+.Marafon {
+    background: url(../img/online/marafon.jpg);
+    background-size: 447px;
+}
+
+
+.Skype:hover .productActive {
+  display: block;
+}
+.Live:hover .productActive {
+    display: block;
+}
+.Exercises:hover .productActive {
+   display: block; 
+}
+.Marafon:hover .productActive {
+   display: block; 
+}
+
+.productActive {
+    outline: 1px solid #9c9c9c;
+    background:  #ffffff;
+    opacity: 0.7;
+    display: none;
+    position: absolute;
+    width: 450px;
+    height: 650px;
+    
+}
+.productActive img {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.productActive h1 {
+    color: #6c6c6c;
+    font-weight: 300;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-top: 10px;
+    line-height: 22px;
+}
+.productActive p {
+    color: #6c6c6c;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-top: 100px;
+    line-height: 32px; 
+}
+.productActive li {
+    color:#6c6c6c;
+    font-size: 25px;
+    font-weight: 300;
+    transform: scaleX(1.0041);
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 12px;
+}
+.productActive ul {
+    margin-bottom: 60px;
+}
+.productActive i {
+    padding: 6px 35px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    text-decoration: none;
+    color: black;
+    margin-left: 32%;
+}
+.main3 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 650px; 
+} 
+.main3 span {
+    width: 130px;
+    font-size: 17px;
+    margin-left: 190px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.Marafon .productActive {
+    opacity: 0.9;
+}
+
+
+/* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ /* Студия */ 
+.main4 {
+    width: 1400px;
+}
+.main4 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px; 
+} 
+.main4 p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px; 
+} 
+.main4 a {
+    text-decoration: none;
+    color: red;
+}
+
+
+/* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */ /* CONTACTS */
+
+
+.Contacts h3 {
+    display: block;
+    margin: 30px;
+    text-align: center;
+    height: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    background: rgba(78, 110, 145, 0.5);
+}
+.Contacts li {
+    display: flex;
+    width: 350px;
+    margin: 30px 20px;
+    padding-top: 20px;
+    height: 50px;
+}
+.Contacts li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+.Contacts li a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+.Contacts p {
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 35px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

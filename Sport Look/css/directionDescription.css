@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700');
+
+body {
+    width: 1860px;
+    margin: 0 auto;
+}
+*   {
+    margin: 0;
+    padding: 0;
+}
+main,header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_header {
+    margin-top: 40px;
+}
+.logo {
+   text-decoration: none;
+    color: black;
+}
+.name {
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 30px;
+    position: relative;
+}
+.surname p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.surname {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+
+form {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -80px;
+    position: absolute;
+}
+.telegram,
+.inst,
+.tic {
+    margin-left: 20px;
+}
+
+.telegram:hover,
+.inst:hover,
+.tic:hover {
+    outline: 1px solid black;
+}
+
+
+.main_header_menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+nav ul {
+    display: flex;
+    margin-left: 250px;
+    padding-top: 42px; 
+    padding-bottom: 42px;
+}
+
+nav li a {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav li a:hover {
+    background-color: #c7b299;
+}
+nav span {
+  border-bottom: 2px solid black;  
+}
+
+/* MAIN */
+main {
+    font-family: 'Cardo', 'Arial', serif;
+}
+main h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+
+main ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 490px;
+    width: 270px;
+    
+}
+main li {
+    width: 130px;
+    font-size: 17px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+main img {
+    padding: 10px;
+}
+main p  {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 1050px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 60px;
+}
+main p:first-letter {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+figure {
+    text-align: center;
+}
+
+
+/* Рецепты */ /* Рецепты */ /* Рецепты */ /* Рецепты */ /* Рецепты */ 
+.main_recipes h3 {
+    color: #525252;
+    font-weight: 700;
+    text-align: left;
+    transform: scaleX(1.0041);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+.main_recipes ul {
+    display:flow-root;
+    width: 1000px;
+    color:#525252;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    transform: scaleX(1.0041);
+    margin-left: 100px;
+    line-height: 25px;
+}
+.main_recipes ul li {
+    width: 1000px;
+    color: #525252;
+}
+.mark {
+    list-style-type: none;
+    font-style: italic;
+}
+.sandwich ul li {
+    display: inline;
+}
+
+.main_recipes h6 {
+    color: #525252;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    margin-top: 90px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+.main_recipes i {
+    color: #525252;
+    font-weight: 700;
+    text-align:center;
+    margin-top: 10px;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+
+
+/* Правила питания */ /* Правила питания */ /* Правила питания */ /* Правила питания */ 
+.rules ul {
+    margin-left: 130px; /* Обнуляем значение отступов */
+    padding: 20px;
+    width: 900px;
+}
+.rules li {
+    display: inline;
+    width: 400px;
+}
+.main_recipes a {
+    text-decoration: none;
+}
+.main_recipes span {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+/* ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер ДругойРазмер*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    
+body {
+    width: 1400px;
+    margin: 0 auto;
+}
+*   {
+    margin: 0;
+    padding: 0;
+}
+main,header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_header {
+    margin-top: 40px;
+}
+.logo {
+   text-decoration: none;
+    color: black;
+}
+.name {
+    font-size: 44px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 30px;
+    position: relative;
+}
+.surname p:first-letter {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.surname {
+    font-family: 'Dancing Script','Arial', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+
+form {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -80px;
+    position: absolute;
+}
+.telegram,
+.inst,
+.tic {
+    margin-left: 20px;
+}
+
+.telegram:hover,
+.inst:hover,
+.tic:hover {
+    outline: 1px solid black;
+}
+
+
+.main_header_menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 300px;
+}
+nav ul {
+    display: flex;
+    margin-left: 250px;
+    padding-top: 42px; 
+    padding-bottom: 42px;
+}
+
+nav li a {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav li a:hover {
+    background-color: #c7b299;
+}
+nav span {
+  border-bottom: 2px solid black;  
+}
+
+/* MAIN */
+main {
+    font-family: 'Cardo', 'Arial', serif;
+}
+main h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+
+main ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 490px;
+    width: 270px;
+    
+}
+main li {
+    width: 130px;
+    font-size: 17px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+main img {
+    padding: 10px;
+}
+main p  {
+    font-family: 'Cardo', 'Arial', serif;
+    width: 1050px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 60px;
+}
+main p:first-letter {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+figure {
+    text-align: center;
+}
+
+
+/* Рецепты */ /* Рецепты */ /* Рецепты */ /* Рецепты */ /* Рецепты */ 
+.main_recipes h3 {
+    color: #525252;
+    font-weight: 700;
+    text-align: left;
+    transform: scaleX(1.0041);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+.main_recipes ul {
+    display:flow-root;
+    width: 1000px;
+    color:#525252;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    transform: scaleX(1.0041);
+    margin-left: 100px;
+    line-height: 25px;
+}
+.main_recipes ul li {
+    width: 1000px;
+    color: #525252;
+}
+.mark {
+    list-style-type: none;
+    font-style: italic;
+}
+.sandwich ul li {
+    display: inline;
+}
+
+.main_recipes h6 {
+    color: #525252;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    margin-top: 90px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+.main_recipes i {
+    color: #525252;
+    font-weight: 700;
+    text-align:center;
+    margin-top: 10px;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+
+
+/* Правила питания */ /* Правила питания */ /* Правила питания */ /* Правила питания */ 
+.rules ul {
+    margin-left: 130px; /* Обнуляем значение отступов */
+    padding: 20px;
+    width: 900px;
+}
+.rules li {
+    display: inline;
+    width: 400px;
+}
+.main_recipes a {
+    text-decoration: none;
+}
+.main_recipes span {
+    color: red;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+    
