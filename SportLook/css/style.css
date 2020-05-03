@@ -984,9 +984,10 @@ figure img:hover {
 
 /*Online*/ /*Online*/ /*Online*/ /*Online*/ /*Online*/ /*Online*/
 
+
 .main3 {
         display: inline-block;
-        width: 100%;
+        width: 80%;
         margin-top: 72px;
         margin-bottom: 60px;
         margin-left: 160px; 
