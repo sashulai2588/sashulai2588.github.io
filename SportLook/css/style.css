@@ -486,6 +486,13 @@ figure img:hover {
     color: #8c8c8c;
     padding-bottom: 10px;
 }
+.main3 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .Marafon .productActive {
     opacity: 0.9;
 }
@@ -1025,6 +1032,13 @@ figure img:hover {
     margin-left: 190px;
     color: #8c8c8c;
     padding-bottom: 10px;
+}
+.main3 a {
+    text-decoration: none;
+    color: black;
+}
+.main3 a:hover {
+    color: red;
 }
 
 
